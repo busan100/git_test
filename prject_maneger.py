@@ -7,6 +7,7 @@ gc = gspread.service_account(filename="keys.json")
 
 sh = gc.create('33333keyword')
 
+
 worksheet = sh.add_worksheet(title="A wgggggg00", rows=100, cols=20)
 
 # But that new spreadsheet will be visible only to your script's account.

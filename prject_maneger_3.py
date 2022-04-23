@@ -54,6 +54,7 @@ while True:
     #스크롤 사이 페이지 로딩 시간
     time.sleep(1.5)
 
+
     # 스크롤 후 로딩된 데이터 개수 확인
     lis = browser.find_elements_by_css_selector("li._1EKsQ")
     after_len = len(lis)
